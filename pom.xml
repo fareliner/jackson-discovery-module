@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.fares.bind.jackson.discovery</groupId>
   <artifactId>jackson-discovery-module</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>bundle</packaging>
   <name>Bind: Jackson Discovery Module</name>
   <description>Configures a Jackson object mapper with subtypes unknown to the mapper but available in the classpath.
@@ -37,7 +36,7 @@
   <scm>
     <connection>scm:git:https://github.com/fareliner/jackson-discovery-module.git</connection>
     <developerConnection>scm:git:https://github.com/fareliner/jackson-discovery-module.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>jackson-discovery-module-1.0.1</tag>
     <url>https://github.com/fareliner/jackson-discovery-module</url>
   </scm>
 
